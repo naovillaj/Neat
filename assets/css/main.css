@@ -8,9 +8,16 @@
 	font-family: "proxima-nova-soft", Arial, Helvetica, sans-serif;
 }
 
+body{
+  font-weight: 400;
+  line-height: 24px;
+  color: #494949;
+  letter-spacing: 0.5px;
+}
+
 
 .uno {
-	height: 600px;
+	height: 450px;
 	width: 100%;
 }
 
@@ -20,8 +27,11 @@
 
 .header{
   background-color: rgb(154, 204, 239);
-  height: 150px;
+  height: 100px;
   margin-top: 0;
+  padding-top: 20px;
+  padding-left: 130px;
+  padding-right: 140px;
 }
 
 .bg-nav{
@@ -30,14 +40,22 @@
 
 .neat-img{
   height: 50px;
-  width: auto;
+  width: 50%;
+}
+
+.div-email {
+  padding-top:15px;
+}
+
+.div-email a{
+  color: white;
 }
 
 .icon--hero-bg{
 	color: white;
-	height: 600px;
+	height: 450px;
 	background-size: cover;
-	background-position: right bottom;
+	/*background-position: right bottom;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -50,7 +68,45 @@
 	bottom: 0;
 }
 
+.neat-services{
+  padding-top: 30px;
+  height: 500px;
+  background-color: white;
+  margin: 0 89.5px;
+}
 
+.icon-services{
+	width: 275px;
+	height: 275px;
+	background-color: #FFCC66;
+	border-radius: 50%;
+	position: relative;
+	padding: 8%;
+}
+
+.icon-attributes{
+  position: absolute;
+	width: 70%;
+	height: 70%;
+	background-size: cover;
+  text-align: center;
+}
+
+.h1-font{
+  color: #3498db;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: -55px;
+}
+
+.p-font{
+  padding-left: 120px;
+  line-height: 3.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: left;
+  font-size: 17px;
+}
 /*"@gray-base": "#000",
 "@gray-darker": "#1280c9",
 "@gray-dark": "lighten(@gray-base, 20%)",
@@ -73,4 +129,8 @@
 		background-position: center bottom;
 		height: 850px;
 	}
+
+  .neat-div{
+    align-items: center;
+  }
 }

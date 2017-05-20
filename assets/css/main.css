@@ -5,20 +5,72 @@
 }
 
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 	font-family: "proxima-nova-soft", Arial, Helvetica, sans-serif;
 }
+
 
 .uno {
 	height: 600px;
 	width: 100%;
 }
 
+.alert-align{
+  text-align: center;
+}
 
-/*.bg-section{
-	background-size: cover;
-	width: 100%;
+.header{
+  background-color: rgb(154, 204, 239);
+  height: 150px;
+  margin-top: 0;
+}
+
+.bg-nav{
+  background-color: rgb(154, 204, 239);
+}
+
+.neat-img{
+  height: 50px;
+  width: auto;
+}
+
+.icon--hero-bg{
+	color: white;
 	height: 600px;
-}*/
+	background-size: cover;
+	background-position: right bottom;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon--hero-bg::after{
+	position: absolute;
+	background-color: #F9F9F9;
+	height: 45px;
+	width: 100%;
+	bottom: 0;
+}
+
+
+/*"@gray-base": "#000",
+"@gray-darker": "#1280c9",
+"@gray-dark": "lighten(@gray-base, 20%)",
+"@gray": "#494949",
+"@gray-light": "#9ACCEF",
+"@gray-lighter": "#FFCC66",
+"@brand-primary": "#3498DB",
+"@brand-success": "#6EA43F",
+"@brand-info": "#FFF",
+"@brand-warning": "#F1D8A9",
+"@brand-danger": "#ED7161",
+"@body-bg": "#fff",*/
+
+
+
+
+
+@media screen and (min-width: 788px) {
+	.icon--hero-bg{
+		background-position: center bottom;
+		height: 850px;
+	}
+}

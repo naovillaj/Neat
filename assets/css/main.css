@@ -154,14 +154,14 @@ body{
 .comunity-section{
   padding-top: 75px;
   background-color: rgb(117, 185, 231);
-  height: 700px;
+  height: 1000px;
 }
-.h1-comunity{
+.h1-comunity, .h1-checklist{
   color: white;
   font-size: 65px;
   font-weight: 700;
 }
-.p-comunity{
+.p-comunity, .p-checklist{
   line-height: 3.5rem;
   letter-spacing: 1px;
   font-weight: 600;
@@ -208,6 +208,7 @@ body{
   padding-top: 20px;
 }
 .testimonial-body{
+  width: 600px;
   line-height: 2.8rem;
   letter-spacing: 0.7px;
   font-weight: 600;
@@ -220,6 +221,12 @@ body{
 	width: 20%;
 	height: 20%;
 	background-size: cover;
+}
+
+.section-checklist{
+  background-color: rgb(52, 152, 219);
+  height: 1000px;
+  padding-top: 100px;
 }
 
 /*"@gray-base": "#000",
@@ -249,7 +256,7 @@ body{
     align-items: center;
   }
   .comunity-section{
-    height: 700px;
+    height: 1000px;
   }
 
 }

@@ -16,7 +16,11 @@ body{
   letter-spacing: 0.5px;
 }
 
-section{
+html,body,.container {
+    height:100%;
+}
+section, footer{
+ /* min-height: 700px;*/
   overflow: auto;
 }
 
@@ -45,7 +49,7 @@ section{
 }
 
 .neat-img{
-  height: 50px;
+  height: 50%;
   width: 50%;
 }
 
@@ -74,6 +78,19 @@ section{
 	bottom: 0;
 }
 
+.h1-title{
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.p-title{
+  font-size: 25px;
+  font-weight: 900;
+}
+.icon--hero-bench{
+  height: 50%;
+  width: 50%;
+}
 .section-neat-services{
   background-color: #F9F9F9;
 }
@@ -252,26 +269,45 @@ section{
   height: 500px;
 }
 footer{
-  background-color: #3898DB;
+  background-color: #3498DB;
+  min-height: 200px;
 }
-/*"@gray-base": "#000",
-"@gray-darker": "#1280c9",
-"@gray-dark": "lighten(@gray-base, 20%)",
-"@gray": "#494949",
-"@gray-light": "#9ACCEF",
-"@gray-lighter": "#FFCC66",
-"@brand-primary": "#3498DB",
-"@brand-success": "#6EA43F",
-"@brand-info": "#FFF",
-"@brand-warning": "#F1D8A9",
-"@brand-danger": "#ED7161",
-"@body-bg": "#fff",*/
+.nav-footer{
+  background-color: #3498DB;
+  color: white;
+}
 
+.nav-footer:hover{
+  background-color:  #3498DB;
+}
+.neat-img-footer{
+  height: 10%;
+  width: 10%;
+}
+.h3-footer{
+  color: white;
+  font-weight: 700;
+}
 
+.ifooter{
+  padding-left: 50px;
+  background-color: #0E629A;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+}
 
+.btn-fixed{
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: darkgray;
+  background-color: white;
 
-
-@media (min-width: @screen-sm-min)  {
+}
+@media(max-width:767px)  {
 	.icon--hero-bg{
 		background-position: center bottom;
 		height: 850px;
@@ -286,4 +322,13 @@ footer{
   .feature-icon{
     text-align: left;
   }
+
+  .p-title{
+    font-size: 18px;
+  }
+  section, footer{
+  min-height: 400px;
+ /* overflow: auto;*/
+}
+
 }
